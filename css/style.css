@@ -1,0 +1,476 @@
+body{
+   font-family:Verdana;
+   font-size: 14px;
+   color:#00334e;
+   background: #f7f7f7;
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+#container{
+   height: auto;
+   margin-top: 0px auto;
+   padding-top: 0px;
+   padding: 5px;
+   box-sizing: border-box;
+}
+
+#container #header{
+   margin-top: 0px;
+   position: absolute;
+   overflow: hidden;
+   width: 100%;
+}
+
+#container #header #menu {
+   background:#00334e;
+   padding:10px;
+   overflow: hidden;
+}
+
+#header #menu #user{
+   float: left;
+   text-transform: uppercase;
+}
+
+#header #menu #user a {
+   text-decoration: none;
+   color:white;
+   padding-right: 7px;
+   margin-top: 5px;
+   display: inline-block;
+}
+
+a#button-mushop{
+   float: right;
+   padding: 2px 7px;
+   margin-right: 5px;
+   background: rgb(103, 231, 142);
+   border-radius: 3px;
+   text-decoration: none;
+   box-sizing: border-box;
+}
+
+a#button-keranjang{
+   float: right;
+   padding: 2px 7px;
+   margin-right: 5px;
+   background: orange;
+   border-radius: 3px;
+   text-decoration: none;
+   box-sizing: border-box;
+}
+
+/* a#button-keranjang img{
+   vertical-align: bottom;
+} */
+
+#footer{
+   width: 100%;
+   box-sizing: border-box;
+}
+
+#container #footer{
+   background:#00334e;;
+   padding: 10px;
+}
+
+#container #footer p {
+   text-align: right;
+   font-size: 12px;
+   font-style: italic;
+   margin: 0px;
+   color: white;
+   
+}
+
+#container #content {
+   padding: 5px 10px;
+   margin-top: 50px;
+   box-sizing: border-box;
+}
+
+.user-akses{
+   margin: 50px auto;
+   width: 350px;
+   height: auto;
+}
+
+.element-form label input, textarea{
+   display: block;
+   width: 100%;
+   padding-top: 5px;
+   margin-bottom: 10px;
+   margin-top:5px ;
+   box-sizing: border-box;
+}
+
+.element-form input[type="submit"]{
+   background:#00334e;;
+   padding: 7px 20px;
+   color: white;
+   border-radius: 3px;
+   font-size: 11px;
+   border: none;
+   cursor: pointer;
+
+}
+
+.element-form input[type="submit"]:hover{
+   background: orange;
+}
+
+.notif{
+   background: #f52a2a;
+   color: white;
+   padding:10px;
+   margin-bottom:10px;
+   font-size:12px;
+}
+
+
+
+#bg-page-profile{
+   overflow: hidden;
+}
+#menu-profile{
+   float: left;
+   width: 245px;
+   background-color:#00334e;;
+}
+
+#menu-profile ul{
+   list-style: none;
+   margin: 0px;
+   padding: 0px;
+}
+
+#menu-profile ul li a {
+   display: block;
+   color: white;
+   text-decoration: none;
+   padding: 12px 20px;
+}
+
+#menu-profile ul li a:hover,
+#menu-profile ul li a.active{
+   background: orange;
+}
+
+#profile-content{
+   background: white;
+   float: left;
+   width: 735px;
+   min-height: 250px;
+   padding: 6px 10px;
+   box-sizing: border-box;
+}
+
+.table-list{
+   width: 100%;
+}
+
+.table-list tr.baris-title{
+  background: #e0dfdf;  
+}
+
+.table-list tr th,
+.table-list tr td{
+   padding: 10px 7px;
+}
+
+.no{
+width: 20px;
+text-align: center;
+}
+
+.kiri{
+   text-align: left;
+}
+
+.tengah{
+   text-align: center;
+}
+
+.kanan{
+   text-align: right;
+}
+
+#frame-tambah{
+   margin-bottom: 12px;
+   text-align: right;
+}
+
+.tombol-action{
+   background:#00334e;;
+   color: white;
+   border-radius: 1px;
+   margin-right: 3px;
+   padding: 7px 15px;
+   text-decoration: none;
+   font-size: 12px;
+}
+
+.tombol-action:hover{
+   background: orange;
+}
+
+.element-form select{
+   width: 100%;
+   height: 25px;
+   margin-bottom: 7px;
+}
+
+.main{
+   overflow: hidden;
+}
+
+#kiri{
+   width: 200px;
+   height: auto;
+   float: left;
+}
+
+#menu-kategori ul {
+   margin: 0px;
+   padding: 0px;
+   list-style: none;
+}
+
+#menu-kategori ul li {
+   margin-bottom: 5px;
+}
+
+#menu-kategori ul li a{
+   text-decoration: none;
+   background: white;
+   color:#00334e;;
+   display: block;
+   padding: 10px;
+}
+
+#menu-kategori ul li a:hover{
+   background: #e8e8e8;
+}
+
+#kanan{
+   width: 720px;
+   margin-left: 15px;
+   float: left;
+   min-height: 250px;
+}
+
+#kanan #frame-barang ul{
+   list-style: none;
+   margin: 0px;
+   padding: 0px;
+   /* overflow: hidden; */
+}
+
+#kanan #frame-barang ul li{
+   width: 200px;
+   background: white;
+   padding: 10px 15px;
+   margin-bottom: 15px;
+   margin-right: 15px;
+   float: left;
+}
+
+#kanan #frame-barang ul li p.price{
+   font-size: 15px;
+   font-weight: bold;
+   text-align: right;
+   margin-bottom: 10px;
+}
+ 
+#kanan #frame-barang ul li a img{
+   display: block;
+   width: 200px;   
+}
+
+#kanan #frame-barang ul li .keterangan-gambar{
+   border-top: 1px solid #e6e6e6;
+   border-bottom: 1px solid #e6e6e6;
+   padding: 10px 0px;
+   height: 50px;
+}
+ 
+#kanan #frame-barang ul li .keterangan-gambar p{
+   text-align: center;
+   margin: 5px 0px;
+}
+
+#kanan #frame-barang ul li .keterangan-gambar p a{
+   font-weight: bold;
+   text-decoration: none;
+}
+
+#kanan #frame-barang ul li .keterangan-gambar span{
+   display: block;
+   text-align: center;
+}
+
+#kanan #frame-barang ul li .button-add-cart{
+   text-align: center;
+}
+
+#kanan #frame-barang ul li .button-add-cart a {
+   background:#00334e;;
+   color: white;
+   text-decoration: none;
+   display: inline-block;
+   margin-top: 10px;
+   padding: 5px 10px;
+   border-radius: 3px;
+}
+
+#kanan #frame-barang ul li .button-add-cart a:hover,
+#menu-kategori ul li a.active{
+   background: orange;
+   color:white;
+}
+
+#detail-barang{
+   background: white;
+   padding: 15px;
+}
+
+#detail-barang h2{
+   margin-top: 0px;
+}
+
+#detail-barang #frame-gambar{
+   background: #fbfbfb;
+   padding: 20px;
+}
+
+#detail-barang #frame-gambar img{
+   display: block;
+   margin: 0px auto;
+}
+
+#detail-barang #frame-harga{
+   margin: 15px 0px;
+}
+
+#detail-barang #frame-harga{
+   font-size: 15px;
+   font-weight: bold;
+   color: red;
+}
+
+#detail-barang #frame-harga a{
+   background:#00334e;;
+   color: white;
+   float: right;
+   font-size: 12px;
+   text-decoration: none;
+   border-radius: 3px;
+   display: inline-block;
+   padding: 5px 10px;
+}
+
+#detail-barang #frame-harga a:hover{
+   background: orange;
+}
+
+#detail-barang #keterangan{
+   margin: 20px 0px;
+}
+
+.total-barang{
+   text-decoration: none;
+   color: white;
+   font-size: 12px;
+   font-weight: bold;
+   vertical-align: top;
+}
+
+input.update-quantity{
+   width: 30px;
+   text-align: center;
+}
+
+.kanan.hapus-item{
+   position: relative;
+}
+
+.kanan.hapus-item a{
+   position: absolute;
+   top: 0px;
+   right: 0px;
+   text-decoration: none;
+   color: #f52a2a;
+}
+
+#frame-button-keranjang a{
+   background:#00334e;;
+   color: white;
+   text-decoration: none;
+   padding: 8px 5px;
+   margin: 10px 10px;
+   display: inline-block;
+  
+}
+
+#frame-button-keranjang #pemesanan{
+   float: right;
+}
+
+#frame-pengiriman{
+   float: left;
+   width: 450px;
+   margin-left: 10px; 
+   padding: 10px;
+   box-sizing: border-box;
+}
+
+#form-kirim{
+   border: 1px solid grey;
+   padding: 10px;
+}
+
+#detail{
+   border: 1px solid grey;
+   padding: 10px;
+}
+
+#frame-order{
+   float: right;
+   width: 510px;
+   padding: 10px;
+   box-sizing: border-box;
+}
+
+h3.label-data{
+   border: 1px solid grey;
+   padding: 10px;
+   margin: 0px;
+}
+
+ul.pagination{
+   margin:10px 0px 0px 50px;
+   list-style: none;
+   padding: 0px;
+}
+
+ul.pagination li{
+   float: left;
+}
+
+ul.pagination li a{
+   text-decoration: none;
+   padding: 5px 7px;
+   border: 1px solid#00334e;;
+   margin-right: 5px;
+}
+
+ul.pagination li a.active{
+   background:#1e5474;
+   color: white;
+}
+
+.pagination a:hover{
+   font-weight: bold;
+}
