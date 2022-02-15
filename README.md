@@ -1,4 +1,4 @@
-Projek Kedua membuat website e-commerce yang bernama mushop. Dibuat dengan menggunakan bahasa pemrograman PHP Native dan sudah dilengkapi database (langsung import)
+Belajar membuat website e-commerce yang bernama mushop. Dibuat dengan menggunakan bahasa pemrograman PHP Native dan sudah dilengkapi database (langsung import)
 Terdapat halaman login, halaman user dan admin, register, list barang, detail barang, keranjang, pembayaran, dll. Dilengkapi dengan CRUD untuk mengelola barang dan status pembayaran.
 
 Cara Pengunaan 
